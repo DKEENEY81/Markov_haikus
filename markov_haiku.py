@@ -198,11 +198,8 @@ def main():
             continue
 
         print()
-        print("First line = ", end="")
         print(' '.join(final[0]), file=sys.stderr)
-        print("Second line = ", end="")
         print(' '.join(final[1]), file=sys.stderr)
-        print("Third line = ", end="")
         print(' '.join(final[2]), file=sys.stderr)
         print()
 
